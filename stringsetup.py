@@ -13,8 +13,8 @@ Login using your Telegram account
 Click on API Development Tools
 Create a new application, by entering the required details"""
 )
-APP_ID = int(input("Enter APP ID here: "))
-API_HASH = input("Enter API HASH here: ")
+APP_ID = int(input("17633835"))
+API_HASH = input("86d805c11615259d356d903694c56a6c")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     print(client.session.save())
